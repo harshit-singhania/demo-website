@@ -33,14 +33,15 @@
     background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
     background-size: 100%;
     -webkit-background-clip: text;
-    -moz-background-clip: text; 
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-    display: flex ;
+    display: flex;
     align-items: center;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
-}
+  }
 
 .fa-gem {
     margin-right: 0.5rem;
@@ -95,3 +96,9 @@
     background: #4837ff;
     transition: all 0.3s ease;
 }
+
+.navbar__links:hover {
+    color: #f77062;
+    transition: all 0.3s ease;
+  }
+
